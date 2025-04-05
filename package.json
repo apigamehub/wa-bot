@@ -1,0 +1,55 @@
+{
+  "name": "wa-bot",
+  "version": "0.0.01+production",
+  "description": "Whatsapp bot API TopUp Game.",
+  "main": "index.js",
+  "directories": {
+    "commands": "commands",
+    "events": "events",
+    "tools": "tools"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "install:adapter": "node install-adapter.js",
+    "start:pm2": "pm2 start ./index.js --name $(basename $(pwd))"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsreimau/ckptw-wabot.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-bot"
+  ],
+  "author": "apigamehub.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://chat.whatsapp.com/JJXnCrEGEBA1QJT3KfMjRk"
+  },
+  "homepage": "https://apigamehub.com",
+  "dependencies": {
+    "@mengkodingan/ckptw": "^4.4.8",
+    "@mengkodingan/consolefy": "^1.0.1",
+    "@zanixongroup/uploader": "^2.0.2",
+    "axios": "1.8.3",
+    "cfonts": "^3.3.0",
+    "consolify": "^2.2.1",
+    "didyoumean": "^1.2.2",
+    "file-type": "^16.5.4",
+    "form-data": "^4.0.2",
+    "jimp": "^0.16.1",
+    "jsdom": "^26.0.0",
+    "link-preview-js": "^3.0.14",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.47",
+    "simpl.db": "^2.13.0",
+    "util": "^0.12.5",
+    "wa-sticker-formatter": "^4.4.4"
+  },
+  "optionalDependencies": {
+    "baileys-firebase": "^1.0.1",
+    "baileys-mongodb": "^1.0.9",
+    "baileys-mysql": "^1.0.4"
+  }
+}
