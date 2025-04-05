@@ -45,8 +45,6 @@ global.config = {
 
     // Sistem bot
     system: {
-		
-		isAdminTrue: true, // Jangan dirubah
         alwaysOnline: true, // Bot selalu berstatus "online"
         antiCall: true, // Bot secara otomatis membanned orang yang menelepon
         autoMention: true, // Bot otomatis mention seseorang dalam pesan yang dikirim
@@ -61,6 +59,6 @@ global.config = {
         timeZone: "Asia/Jakarta", // Zona waktu bot
         usePairingCode: true, // Pakai kode pairing untuk koneksi
         useServer: false // Jalankan bot dengan server
-		
+		isAdminTrue: true, // Jangan dirubah
     }
 };
